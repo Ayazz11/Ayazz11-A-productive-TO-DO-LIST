@@ -1,0 +1,287 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    color: white;
+}
+
+body {
+    background: url(./STAR.jpg) no-repeat center center/cover;
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding-bottom: 2%;
+    color: #0AA1DD;
+
+}
+
+hr {
+    background-color: white;
+    border-color: white;
+}
+
+
+section {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+    margin: 10px auto;
+
+}
+
+
+.item {
+    text-align: left;
+}
+
+.item label {
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.item input,
+textarea {
+
+
+    width: 34rem;
+    margin: 3% auto;
+    padding: 1% 3%;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: black;
+
+}
+
+.item button {
+
+    margin-right: 1%;
+
+    padding: .5% 2%;
+}
+
+/* 2nd part */
+
+
+#list h2 {
+    padding: 0% 0% 2% 0%;
+}
+
+#box2 {
+
+    display: flex;
+
+}
+
+#box2 table td {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 1.5rem;
+}
+
+#box2 table td:first-child {
+    padding-right: 2rem;
+}
+
+#motivation {
+    padding: 0%;
+    margin: 0%;
+
+    background-color: rgb(196, 196, 196);
+
+
+}
+
+.delbtn {
+    margin: 11% 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+
+#motivation h3 {
+    width: 100%;
+    padding-left: 2%;
+    margin: 0%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#motivation button {
+    padding-top: 1%;
+
+}
+
+#motivation button span {
+    width: 1%;
+
+}
+
+#motivation img {
+    height: 250px;
+    width: 100%;
+}
+
+#bottom {
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+#bottom div {
+
+    text-align: left;
+
+}
+
+#bottom p {
+    margin: 0%;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+footer {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 4%;
+    color: #0AA1DD;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .item input,
+    textarea {
+        width: 25rem;
+        font-size: .8rem;
+    }
+
+    section {
+        padding: 1%;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 2%;
+    }
+
+    .item label {
+        font-size: 1.2rem;
+    }
+
+    .item button {
+        margin: 5% 2% 5% 0%;
+    }
+
+    #box2 table td {
+        padding-right: 1.3rem;
+    }
+
+    #motivation h3 {
+        font-size: 1.5rem;
+    }
+
+    #motivation img {
+        height: 132px;
+
+    }
+
+
+}
+
+
+@media only screen and (max-width: 479px) {
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    #motivation h3 {
+        font-size: 1rem;
+    }
+
+    .tdc {
+        font-size: .8rem;
+    }
+
+    #box2 table td {
+        font-size: .7rem;
+
+    }
+
+    .item input,
+    textarea {
+        width: 20rem;
+        font-size: .8rem;
+    }
+
+    section {
+        padding: 0%;
+    }
+
+    #motivation img {
+        height: 100px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 387px) {
+
+    * {
+        padding: 0%;
+    }
+
+    #box2 table td {
+        font-size: .5rem;
+    }
+
+    #motivation h3 {
+
+        font-size: .6rem;
+    }
+
+    h2 {
+        width: 70%;
+        font-size: .9rem;
+    }
+
+    .item input,
+    textarea {
+        width: 10rem;
+
+    }
+
+    footer {
+        font-size: .5rem;
+    }
+
+    #motivation img {
+        height: 70px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1000px) and (min-width:600px) {
+
+    #motivation img {
+        height: 180px;
+    }
+}
